@@ -4,5 +4,5 @@ Hi I'm Mohamad Reza Noshadi, a recent graduate with a Bachelor's degree in Elect
 
 ## Programming Skills
 
-> **`Python`** (completed Harvard's CS50P)
-> **`SQL`, `Git & GitHub`, `Linux`** (Currently Learning)
+> **`Python`** (completed Harvard's CS50P)/
+> **`SQL`, `Git & GitHub`, `Linux`** (Currently Learning)/
