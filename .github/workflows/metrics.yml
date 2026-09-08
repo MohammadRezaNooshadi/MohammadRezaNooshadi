@@ -1,0 +1,29 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # تنظیمات انیمیشن و هدر متحرک
+          user: SamirPaulb
+          template: classic
+          base: header
+          config_animated: yes
+          
+          # جزئیات هدر
+          plugin_header: yes
+          plugin_header_title: "Mohammadreza Noshadi"
